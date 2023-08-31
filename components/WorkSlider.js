@@ -70,37 +70,73 @@ export const workSlider = {
           url:'https://axiomatic-kite-8be.notion.site/Plex-Media-Server-Stack-Setup-3094a21d5fc441caac43278d2c50ff6f?pvs=4'
         },
         {
-          title: '',
-          path: '/thumb.jpg',
-          url:''
+          title: 'Cloudflare Tunnel',
+          path: '/thumb13.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Home-Server-Web-Self-Hosting-018e93995917468287a025c9443f236d?pvs=4'
         },
         {
-          title: '',
-          path: '/thumb.jpg',
-          url:''
+          title: 'Windows VM',
+          path: '/thumb14.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Self-Hosted-Windows-Virtual-Machines-16b0386b94a94563894ea445ce62202e?pvs=4'
         },
         {
-          title: '',
-          path: '/thumb.jpg',
-          url:''
+          title: 'Rx-Resume',
+          path: '/thumb15.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Self-Hosted-Resume-66371b48159c4dd2ac7cee1c8ff15bfc?pvs=4'
         },
         {
-          title: '',
-          path: '/thumb.jpg',
-          url:''
+          title: 'Bitwarden',
+          path: '/thumb16.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Self-Hosted-Password-Manager-5c194b4eb6f14c1883b0aa57790e2c74?pvs=4'
         },
         {
-          title: '',
-          path: '/thumb.jpg',
-          url:''
+          title: 'Paperless',
+          path: '/thumb17.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Self-Hosted-Document-Management-6fe1baa9be444c48800342bdfbdd7729?pvs=4'
         },
         {
-          title: '',
-          path: '/thumb.jpg',
-          url:''
+          title: 'Photoprism',
+          path: '/thumb18.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Self-Hosted-Photo-Backup-47d9fe1d2f3c4e53b50d3a34f0eb675f?pvs=4'
         },
       ],
+      
     },
+    {
+      images: [
+        {
+          title: 'Tasmota',
+          path: '/thumb19.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/IoT-Smart-Power-Management-2b9c0420d4d14ee79f6e96f83e4a1f57?pvs=4'
+        },
+        {
+          title: 'Octoprint Docker',
+          path: '/thumb20.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Octoprint-Docker-Setup-0b350b8991a340a7a587bf4b59787d91?pvs=4'
+        },
+        {
+          title: 'Mesh WiFi',
+          path: '/thumb21.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/Home-Mesh-Wi-Fi-Install-1b7d167062dc44f08d60146f944f6a33?pvs=4'
+        },
+        {
+          title: 'VScode Server',
+          path: '/thumb22.jpg',
+          url:'https://axiomatic-kite-8be.notion.site/VS-Code-Server-Self-Hosting-957244145a104a0e8438d6edaab29c2a?pvs=4'
+        },
+        {
+          title: '',
+          path: '/thumb.jpg',
+          url:''
+        },
+        {
+          title: '',
+          path: '/thumb.jpg',
+          url:''
+        },
+
+      ],
+    }
   ],
 };
 

@@ -9,7 +9,7 @@ import {
 } from 'react-icons/ri';
 
 const Socials = () => {
-  const iconSize = 36; // Adjust the size as needed
+  const iconSize = 30; // Adjust the size as needed
   return (
     <div className='flex items-center gap-x-5 text-lg'>
       <Link href={'https://www.linkedin.com/in/ozair-ghogha/'} className='hover:text-accent transition-all duration-300'>
