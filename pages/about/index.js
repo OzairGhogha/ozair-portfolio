@@ -155,7 +155,7 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Cloud Engineer at UBDS',
+        title: 'Cloud Engineer at ?',
         stage: '2023 -> Present',
       },
       {
