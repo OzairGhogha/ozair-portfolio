@@ -63,92 +63,90 @@ export const aboutData = [
     
     title: 'skills',
     info: [
+
       {
         title: 'Cloud Platforms',
         icons: [
-          <SiAmazonaws />,
-          <SiMicrosoftazure />,
-       
+          <SiAmazonaws key="amazonaws" />,
+          <SiMicrosoftazure key="microsoftazure" />,
         ],
       },
       {
         title: 'Networking',
         icons: [
-          <SiCisco />,
-          <SiTplink />,
-          <SiDocker />,
-          <SiVmware />,
-          <SiLinux />,
-          <SiKalilinux />,
-          <SiUnraid />,
-          <FaWindows />,
-          <SiKubernetes />,
-          <SiRedis />,
-          <SiPlex />,
-          <SiWireguard />,
-          <SiWireshark />,
-          <SiUptimekuma />,
-          <SiCloudflare />,
-          <SiNginx/>,
-          <SiAdguard />,     
-              
+          <SiCisco key="cisco" />,
+          <SiTplink key="tplink" />,
+          <SiDocker key="docker" />,
+          <SiVmware key="vmware" />,
+          <SiLinux key="linux" />,
+          <SiKalilinux key="kalilinux" />,
+          <SiUnraid key="unraid" />,
+          <FaWindows key="windows" />,
+          <SiKubernetes key="kubernetes" />,
+          <SiRedis key="redis" />,
+          <SiPlex key="plex" />,
+          <SiWireguard key="wireguard" />,
+          <SiWireshark key="wireshark" />,
+          <SiUptimekuma key="uptimekuma" />,
+          <SiCloudflare key="cloudflare" />,
+          <SiNginx key="nginx" />,
+          <SiAdguard key="adguard" />,
         ],
       },
       {
         title: 'PC Building ',
         icons: [
-          <SiIntel />,
-          <SiAmd />,
-          <SiNvidia />,
-          <FaWindows />,
-          <SiUbuntu />,
-          <SiLinuxmint />,
-          <SiSteam />,
-          <SiObsstudio />,
-          <SiEpicgames />,
-          <SiRiotgames />,
-          <SiDiscord />,
-          
-          
+          <SiIntel key="intel" />,
+          <SiAmd key="amd" />,
+          <SiNvidia key="nvidia" />,
+          <FaWindows key="windows" />,
+          <SiUbuntu key="ubuntu" />,
+          <SiLinuxmint key="linuxmint" />,
+          <SiSteam key="steam" />,
+          <SiObsstudio key="obsstudio" />,
+          <SiEpicgames key="epicgames" />,
+          <SiRiotgames key="riotgames" />,
+          <SiDiscord key="discord" />,
         ],
       },
       {
         title: 'Programming',
         icons: [
-          <FaPhp />,
-          <SiMysql />,
-          <FaJava />,
-          <SiGnubash />,
-          <SiPowershell />,
-          <SiJson/>,
-          <SiKotlin />,
-          <SiSwift />,
-          <SiUnrealengine />,
-          <SiCplusplus />,
+          <FaPhp key="php" />,
+          <SiMysql key="mysql" />,
+          <FaJava key="java" />,
+          <SiGnubash key="gnubash" />,
+          <SiPowershell key="powershell" />,
+          <SiJson key="json" />,
+          <SiKotlin key="kotlin" />,
+          <SiSwift key="swift" />,
+          <SiUnrealengine key="unrealengine" />,
+          <SiCplusplus key="cplusplus" />,
         ],
       },
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextdotjs" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'Content Creation',
         icons: [
-          <SiObsstudio />, 
-          <SiAdobepremierepro />, 
-          <SiAdobephotoshop />,
-          <SiBlender />,
-
-          ],
+          <SiObsstudio key="obsstudio" />,
+          <SiAdobepremierepro key="adobepremierepro" />,
+          <SiAdobephotoshop key="adobephotoshop" />,
+          <SiBlender key="blender" />,
+        ],
       },
+      
+
     ],
   },
   {
@@ -207,7 +205,6 @@ export const aboutData = [
 ];
 
 // components
-import Avatar from '../../components/Avatar';
 import Circles from '../../components/Circles';
 
 // framer motion
@@ -253,7 +250,7 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            7 years ago, I began freelancing as a computer system engineer. Since then, I've designed and implemented networks, custom bespoke systems, and provided IT consultations services to many clients across the UK.
+            7 years ago, I began freelancing as a computer system engineer. Since then, I have designed and implemented networks, custom bespoke systems, and provided IT consultations services to many clients across the UK.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -341,7 +338,7 @@ const About = () => {
                   <div className='flex gap-x-4'>
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className='text-2xl text-white'>{icon}</div>;
+                      return <div key={itemIndex} className='text-2xl text-white'>{icon}</div>;
                     })}
                   </div>
                 </div>

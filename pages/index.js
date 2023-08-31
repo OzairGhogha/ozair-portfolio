@@ -26,7 +26,7 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Hi, I'm Ozair, <br /> a{' '}
+            Hi, I am Ozair, <br /> a{' '}
             <span className='text-accent'>Cloud Engineer</span>
           </motion.h1>
           {/* subtitle */}
