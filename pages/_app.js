@@ -3,6 +3,8 @@ import '../styles/globals.css';
 // components
 import Layout from '../components/Layout';
 import Transition from '../components/Transition';
+import Head from "next/head";
+
 
 // router
 import { useRouter } from 'next/router';
