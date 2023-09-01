@@ -17,6 +17,9 @@ function MyApp({ Component, pageProps }) {
       <AnimatePresence mode='wait'>
         <motion.div key={router.route} className='h-full'>
           <Transition />
+          <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
