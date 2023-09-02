@@ -47,7 +47,7 @@ const Home = () => {
   exit='hidden'
   className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
 >
-I’ve showcased some of my projects here, in fact, you are looking at one right now - this website. I’ts built with Next.js, Tailwind CSS, TypeScript, and React. The site is hosted on AWS, utilising services like Amplify, S3, EC2, Lambda, CloudFront, Route53, and monitored with CloudWatch and Synthetics Canaries.
+I’ve showcased some of my projects here, in fact, you are looking at one right now - this website. I’ts built with Next.js, Tailwind CSS, Framer Motion, TypeScript, and React. The site is hosted on AWS, utilising services like Amplify, S3, EC2, Lambda, CloudFront, Route53, and monitored with CloudWatch and Synthetics Canaries.
 </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

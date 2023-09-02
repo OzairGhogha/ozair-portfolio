@@ -24,7 +24,7 @@ export const testimonialSlider = [
   {
     image: '/t-avt-2.png',
     name: 'Will C',
-    position: '3D Printing Customer',
+    position: '3D Printing Service Customer',
     message:
       'I have adhd and I drive a lot for work and I think they are (3D Printed fidget toy) great.',
   },
