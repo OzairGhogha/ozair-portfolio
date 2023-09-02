@@ -4,7 +4,7 @@ import Image from 'next/image';
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
-import Avatar from '../components/Avatar';
+
 
 // framer motion
 import { motion } from 'framer-motion';
@@ -26,7 +26,7 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Hi, I am Ozair, <br /> a{' '}
+            Hi, I’m Ozair, <br /> a{' '}
             <span className='text-accent'>Cloud Engineer</span>
           </motion.h1>
           {/* subtitle */}
@@ -35,10 +35,20 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-6'
           >
-             I have 7 years of expertise in designing and implementing networks, custom bespoke systems, and providing IT consultation services. I specialise in networking and cloud technologies, and I hold a Bachelor’s degree with Honours in Computer Science, along with Cisco Networking and Microsoft AI/ML certifications. I’m also pursuing additional certifications in the Microsoft Azure and AWS domains to further enhance my skill set. You can check out some of my projects here!
+             I have 7 years of expertise in designing and implementing networks, custom bespoke systems, and providing IT consultation services. I specialise in networking and cloud technologies, and I hold a Bachelor’s degree with Honours in Computer Science, along with Cisco Networking and Microsoft AI/ML certifications. I’m also pursuing additional certifications in the Microsoft Azure and AWS domains to further enhance my skill set. 
           </motion.p>
+          {/* Add another paragraph */}
+<motion.p
+  variants={fadeIn('down', 0.5)} // You can customize animation for this paragraph
+  initial='hidden'
+  animate='show'
+  exit='hidden'
+  className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+>
+I’ve showcased some of my projects here, in fact, you are looking at one right now - this website. I’ts built with Next.js, Tailwind CSS, TypeScript, and React. The site is hosted on AWS, utilising services like Amplify, S3, EC2, Lambda, CloudFront, Route53, and monitored with CloudWatch and Synthetics Canaries.
+</motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
             <ProjectsBtn />
@@ -55,7 +65,7 @@ const Home = () => {
         </div>
       </div>
       {/* image */}
-      <div className='w-[1200px] h-full absolute right-0 bottom-0'>
+      <div className='w-[950px] h-full absolute right-0 bottom-0'>
         {/* bg img */}
         <div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'></div>
         {/* particles */}
