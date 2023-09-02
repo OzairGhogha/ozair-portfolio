@@ -3,7 +3,7 @@ export const testimonialSlider = [
   {
     image: '/t-avt-2.png',
     name: 'Saadan K',
-    position: '',
+    position: 'Bespoke PC Build Customer',
     message:
       'Upon contacting Ozair for the assembly of my personal computer build, I was instantaneously reassured of my choice through his intimate knowledge of the various architectures and subsystems involved within the project. My initial nerves were settled throughout the whole process as he calmly explained each step, assuring me that everything was going to plan. Once the build was complete he installed all relevant software and ran a myriad of tests to ensure everything was running efficiently. Finally he adjusted the various software to suit my preferences, before explaining everything I needed to know for future upkeep. I rate this service a 10/10 and will be requesting his services in  any future projects.',
   },
