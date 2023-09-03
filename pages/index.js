@@ -17,7 +17,7 @@ const Home = () => {
     <div className='bg-primary/60 h-full'>
       {/* text */}
       <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-        <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto'>
+        <div className='text-center flex flex-col justify-center xl:pt-40 md:pt-10 xl:text-left h-full container mx-auto'>
           {/* title */}
           <motion.h1
             variants={fadeIn('down', 0.2)}
@@ -35,7 +35,7 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-6'
+            className='text-sm md:text-base max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-6'
           >
              I have 7 years of expertise in designing and implementing networks, custom bespoke systems, and providing IT consultation services. I specialise in networking and cloud technologies, and I hold a Bachelor’s degree with Honours in Computer Science, along with Cisco Networking and Microsoft AI/ML certifications. I’m also pursuing additional certifications in the Microsoft Azure and AWS domains to further enhance my skill set. 
           </motion.p>
@@ -45,7 +45,7 @@ const Home = () => {
   initial='hidden'
   animate='show'
   exit='hidden'
-  className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+  className='text-sm md:text-base max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
 >
 I’ve showcased some of my projects here, in fact, you are looking at one right now - this website. I’ts built with Next.js, Tailwind CSS, Framer Motion, TypeScript, and React. The site is deployed through a CI/CD Pipeline and hosted on AWS, utilising services like Amplify, S3, EC2, Lambda, CloudFront, Route53, and monitored with CloudWatch and Synthetics Canaries.
 </motion.p>
