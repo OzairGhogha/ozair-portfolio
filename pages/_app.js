@@ -4,6 +4,7 @@ import '../styles/globals.css';
 import Layout from '../components/Layout';
 import Transition from '../components/Transition';
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 
 // router
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps }) {
           <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
           </Head>
           <Component {...pageProps} />
+          <Analytics />
         </motion.div>
       </AnimatePresence>
     </Layout>
