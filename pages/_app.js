@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
           <Head>
           <title>Ozair Ghogha - Portfolio</title>
           <meta name="author" content="Ozair Ghogha"/>
-          <meta name="description" content="Ozair Ghogha is a cloud engineer who helps clients with their technology needs. He has a strong background in computer science and a passion for learning new skills. He has worked on various projects that you can see on his website."/>
+          <meta name="description" content="I'm Ozair Ghogha. With 7 years of experience in system engineering, networking, and cloud technologies, I'm passionate about designing cutting-edge solutions and providing expert IT consultation services. My journey in technology is fueled by a commitment to innovation and continuous learning. Explore my portfolio to see the results of my work in action"/>
           <link rel="shortcut icon" href="/images/favicon.ico" />
           <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
