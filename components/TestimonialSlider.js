@@ -12,7 +12,7 @@ export const testimonialSlider = [
     name: 'Mustafaa N',
     position: 'Server Hosting Customer',
     message:
-      'Ozair’s gaming servers are awesome, with top-notch performance, a welcoming crew, and a bunch of cool games like Minecraft modpacks, Ark Survival Evolved, and Valheim. Ozair’s all about keeping things reliable and spicing up gameplay with custom modpacks, making his servers the go-to for gamers of all skill levels.',
+      'Ozairs gaming servers are awesome, with top-notch performance, a welcoming crew, and a bunch of cool games like Minecraft modpacks, Ark Survival Evolved, and Valheim. Ozair is all about keeping things reliable and spicing up gameplay with custom modpacks, making his servers the go-to for gamers of all skill levels.',
   },
   {
     image: '/t-avt-2.png',
