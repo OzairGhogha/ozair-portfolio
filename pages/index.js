@@ -92,7 +92,7 @@ const Home = () => {
             exit='hidden'
             className='text-sm md:text-base max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            I&#39;ve showcased some of my projects here, in fact, you are looking at one right now - this website. It&#39;s built with Next.js, Tailwind CSS, Framer Motion, and React. The site is deployed through a CI/CD Pipeline and hosted on AWS, utilizing services like Amplify, S3, EC2, Lambda, IAM, CloudFront, Route53, and monitored with CloudWatch and Synthetics Canaries. As of September 2023, this project is now being deployed through Vercel for improved caching & latency.
+            I&#39;ve showcased some of my projects here, in fact, you are looking at one right now - this website. It&#39;s built with Next.js, Tailwind CSS, Framer Motion, and React. The site is deployed through a CI/CD Pipeline and hosted on AWS, utilising services like Amplify, Docker, S3, EC2, Lambda, IAM, CloudFront, Route53, and monitored with CloudWatch and Synthetics Canaries. As of September 2023, this project is now being deployed through Vercel for improved caching & latency.
           </motion.p>
               
           <div className='flex justify-center xl:hidden md:hidden relative hidden md:flex'>
