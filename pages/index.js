@@ -6,7 +6,7 @@ import { fadeIn } from '../variants';
 import Typewriter from 'typewriter-effect'; // Import the Typewriter component
 
 const Home = () => {
-  const [jobTitles, setJobTitles] = useState(['Cloud Engineer', 'Programmer', 'Systems Engineer', 'Tech Enthusiast', '3D Printer']);
+  const [jobTitles, setJobTitles] = useState(['Cloud Engineer', 'Network Engineer', 'Programmer', 'Systems Engineer', 'Tech Enthusiast', '3D Printer']);
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [currentTitle, setCurrentTitle] = useState(''); // Define setCurrentTitle
 
