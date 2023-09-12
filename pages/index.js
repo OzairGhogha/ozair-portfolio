@@ -83,7 +83,7 @@ const Home = () => {
             exit='hidden'
             className='text-sm md:text-base max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-6'
           >
-            I have 7 years of expertise in designing and implementing networks, custom bespoke systems, and providing IT consultation services. I specialize in networking and cloud technologies, and I hold a Bachelor&#39;s degree with Honors in Computer Science, along with Cisco Networking and Microsoft AI/ML certifications. I&#39;m also pursuing additional certifications in the Microsoft Azure and AWS domains to further enhance my skill set.
+            I have years of expertise in designing and implementing networks, custom bespoke systems, and providing IT consultation services. I specialize in networking and cloud technologies, and I hold a Bachelor&#39;s degree with Honors in Computer Science, along with Cisco Networking and Microsoft AI/ML certifications. I&#39;m also pursuing additional certifications in the Microsoft Azure and AWS domains to further enhance my skill set.
           </motion.p>
           <motion.p
             variants={fadeIn('down', 0.5)}

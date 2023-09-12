@@ -153,12 +153,12 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Cloud Engineer at ?',
+        title: 'New Role at ?',
         stage: '2023 -> Present',
       },
       {
         title: 'Computer Systems Engineer at TechSpert',
-        stage: '2016 -> 2023',
+        stage: '2019 -> 2023',
       },
       {
         title: '3D Modeller & Printer at Ozair3DPrints',
@@ -250,7 +250,7 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            7 years ago, I began freelancing as a computer system engineer. Since then, I have designed and implemented networks, custom bespoke systems, and provided IT consultations services to many clients across the UK.
+            Many years ago, I began freelancing as a computer system engineer. Since then, I have designed and implemented networks, custom bespoke systems, and provided IT consultations services to many clients across the UK.
           </motion.p>
           {/* counters */}
           <motion.div
