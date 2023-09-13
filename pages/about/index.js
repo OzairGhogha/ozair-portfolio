@@ -158,7 +158,7 @@ export const aboutData = [
       },
       {
         title: 'Computer Systems Engineer at TechSpert',
-        stage: '2019 -> 2023',
+        stage: '2021 -> 2023',
       },
       {
         title: '3D Modeller & Printer at Ozair3DPrints',
