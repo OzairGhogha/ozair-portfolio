@@ -152,24 +152,23 @@ export const aboutData = [
   {
     title: 'experience',
     info: [
-      {
-        title: 'New Role at ?',
-        stage: '2023 -> Present',
-      },
-      {
-        title: 'Computer Systems Engineer at TechSpert',
-        stage: '2021 -> 2023',
-      },
-      {
-        title: '3D Modeller & Printer at Ozair3DPrints',
-        stage: '2023 -> Present',
-      },
-      {
-        title: 'Aerial Cinematographer at Sky High Pix',
-        stage: '2021 -> 2023',
-      },
-      
-    ],
+        {
+          title: 'New Role at ?',
+          stage: '? 2023 -> ?',
+        },
+        {
+          title: 'Aerial Cinematographer at Sky High Pix',
+          stage: 'May 2022 -> Feb 2023',
+        },
+        {
+          title: 'Software Engineer at Fanatics (Internship)',
+          stage: 'Dec 2021 -> Feb 2022',
+        },
+        {
+          title: 'Computer Systems Engineer at TechSpert',
+          stage: 'Jan 2021 -> Aug 2023',
+        },
+    ]
   },
   {
     title: 'Certifications',
@@ -194,12 +193,9 @@ export const aboutData = [
     info: [
       {
         title: 'BSc Hons Computer Science at University of Salford',
-        stage: '2020 -> 2023',
+        stage: 'Grad 2023',
       },
-      {
-        title: 'Comp Sci, IT & Physics at Bolton Sixth Form College',
-        stage: '2018 -> 2020',
-      },
+
     ],
   },
 ];
