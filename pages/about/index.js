@@ -153,19 +153,15 @@ export const aboutData = [
     title: 'experience',
     info: [
         {
-          title: 'New Role at ?',
-          stage: '? 2023 -> ?',
+          title: 'DevOps Engineer at Fera',
+          stage: '? -> ?',
         },
         {
-          title: 'Aerial Cinematographer at Sky High Pix',
-          stage: 'May 2022 -> Feb 2023',
-        },
-        {
-          title: 'Software Engineer at Fanatics (Internship)',
+          title: 'Software Engineer at Fanatics (Hack Camp)',
           stage: 'Dec 2021 -> Feb 2022',
         },
         {
-          title: 'Computer Systems Engineer at TechSpert',
+          title: 'Freelance Computer Systems Engineer',
           stage: 'Jan 2021 -> Aug 2023',
         },
     ]
@@ -182,8 +178,8 @@ export const aboutData = [
         stage: 'Achieved 2023',
       },
       {
-        title: 'AWS Certified Solutions Architect Associate',
-        stage: 'Estimated Q4 2023',
+        title: 'Microsoft Skills: Azure Kubernetes Service',
+        stage: 'Achieved 2023',
       },
     ],
    
